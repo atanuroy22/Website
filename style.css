@@ -127,7 +127,7 @@
 .contactForm
 {
 	position: relative;
-	width: 100%;
+	width:auto;
 	background: #fff;
 	min-height: 100px;
 	padding: 20px;
