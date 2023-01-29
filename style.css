@@ -579,8 +579,8 @@
 	transition: all 0.3s ease;
   }
   nav ul.sub {
-	list-style-type: none;
-	margin-top: 40px;
+	list-style-type:square;
+	margin-top: 200px;
 	-webkit-transform: translateY(30px);
 	-moz-transform: translateY(30px);
 	-ms-transform: translateY(30px);
@@ -599,18 +599,20 @@
 	margin-bottom: 0px;
   }
   nav ul.sub li a {
-	color: #ffffff;
+	color: #928080;
 	font-family: "Raleway", sans-serif;
-	letter-spacing: 1px;
-	font-size: 0.9rem;
+	letter-spacing: 0.5px;
+	font-size: 0.7rem;
 	text-decoration: none;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
   }
-  nav ul.sub li a:hover {
-	color: #b7ac7f;
+  nav ul.sub li a:hover{
+	color: #00e5ff;
+	cursor:no-drop;
+
   }
   
   /*  OVERLAY
