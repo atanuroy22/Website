@@ -625,7 +625,7 @@
   }
   nav ul.sub li a:hover{
 	color: #5c5757;
-	cursor:no-drop;
+	cursor:default;
 
   }
   
