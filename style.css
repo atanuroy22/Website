@@ -722,12 +722,12 @@
 
 .flex-container .flex-item {
 	text-align: center;
-  margin: 25px;
+  margin: 10px;
   border-radius: 2px;
-  padding: 0.5em 1.5em ;
+  padding: 0.5em 0.5em ;
   position: relative;
   min-height: 100px;
-  border-radius:5px;
+  border-radius:0.1px;
   cursor: default;
 }
 .flex-container .flex-item:focus {
@@ -788,4 +788,97 @@
   font-size:15px;
   position:sticky;
   bottom:2px;
+}
+
+
+/*Weird Loader
+-------------------------------------------*/
+
+svg {
+	width: 120px;
+    height: 90px;
+	
+}
+.circle{
+	fill:none;
+	stroke-width: 5px;
+	stroke: rgb(173, 90, 172);
+    stroke-linecap: round;
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+	stroke-dasharray: 360;
+	stroke-dashoffset: 100;
+	animation: load 10s infinite;
+}
+.loader{
+	fill: none;
+	stroke-width: 5px;
+	stroke-linecap: round;
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+	stroke-dasharray: 360;
+	stroke-dashoffset: 100;
+	stroke: rgb(255, 5, 155);
+	animation: load 10s infinite;
+
+}
+.circle1{
+	fill:none;
+	stroke-width: 5px;
+	stroke: rgb(226, 234, 146);
+    stroke-linecap: round;
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+	stroke-dasharray: 360;
+	stroke-dashoffset: 100;
+	animation: load 10s infinite;
+}
+.loader1{
+	fill: none;
+	stroke-width: 5px;
+	stroke-linecap: round;
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+	stroke-dasharray: 360;
+	stroke-dashoffset: 100;
+	stroke: rgb(213, 255, 5);
+	animation: load 10s infinite;
+
+}
+.circle2{
+	fill:none;
+	stroke-width: 5px;
+	stroke: rgb(74, 196, 196);
+    stroke-linecap: round;
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+	stroke-dasharray: 360;
+	stroke-dashoffset: 100;
+	animation: load 10s infinite;
+}
+.loader2{
+	fill: none;
+	stroke-width: 5px;
+	stroke-linecap: round;
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+	stroke-dasharray: 360;
+	stroke-dashoffset: 100;
+	stroke: rgb(5, 0, 164);
+	animation: load 10s infinite;
+
+}
+@keyframes load{
+	0%{
+		stroke-dasharray: 360;
+	}
+	25%{
+		stroke-dasharray: 180;
+	}
+	50%{
+		stroke-dasharray: 1;
+	}
+	100%{
+		stroke-dasharray: 360;
+	}
 }
