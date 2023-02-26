@@ -116,7 +116,9 @@ h4{
 	text-align: center;
 	
 }
-.about:hover{text-transform: uppercase;}
+.about:hover{
+	text-transform:capitalize;
+	-webkit-text-fill-color: white;}
 .about img{
 	height: 200px;
 	width: 200px;
@@ -187,12 +189,12 @@ button:hover{
 	min-height: 00px;
 }
 .card{
-	height: 265px;
+	height: 315px;
 	width: 335px;
 	padding: 5px 5px;
 	background: #191919;
 	border-radius: 20px;
-	margin: 15px;
+	margin: 10px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
