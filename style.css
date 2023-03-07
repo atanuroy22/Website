@@ -131,7 +131,7 @@ h4{
 }
 .main{
 	width: auto;
-	max-width: 95%;
+	max-width: auto;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -154,9 +154,9 @@ h4{
 	color: #fcfc;
 	letter-spacing: 1px;
 	line-height: 15px;
-	font-size: 12px;
+	font-size: 15px;
 	margin-bottom: 25px;
-	width: 290px;
+	width: auto;
 }
 button{
 	background-color:#f9004d;
