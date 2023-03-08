@@ -7,8 +7,8 @@
 	box-sizing: border-box;
 }
 .hero{
-	height: auto !important;;
-	width: auto;
+	height: auto ;
+	width: 60%;
 	background-color:none;
 	background-size:cover;
 	background-position: center;
@@ -131,7 +131,7 @@ h4{
 }
 .main{
 	width: auto;
-	
+	max-width: 60%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
