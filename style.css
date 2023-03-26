@@ -35,6 +35,7 @@ span{
 }
 .popup{
 	-webkit-text-fill-color: rgb(255, 213, 213);
+	font-size: 25px;
 }
 .nav2 ul li{
 	list-style-type: none;
