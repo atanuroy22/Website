@@ -772,9 +772,9 @@ svg {
 
 
 h6{
-	font-size: 34px;
-	margin-top: 5px;
-	margin-bottom:5px;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom:0px;
 		color: white;
 		
 	}
@@ -787,7 +787,7 @@ h6 :hover{
 /* Grid View */
 #apps-container {
 	display: grid;
-	gap: 0.3rem;
+	gap: 0.6rem;
 	grid-template-columns: repeat(2, 50%);  
 	margin: 0rem 0rem;
   }
@@ -795,7 +795,7 @@ h6 :hover{
   #apps-container > a {
 	display: flex;
 	align-items: center;
-	gap: 0.5rem;
+	gap: 0.6rem;
 	background-color: rgba(255, 255, 255, 0.295);
 	padding: 0.7rem 0.7rem;
 	border-radius: 0.7rem;
